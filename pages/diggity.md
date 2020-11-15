@@ -7,3 +7,5 @@ eleventyNavigation:
   key: diggity
 ---
 This becomes the bomb.
+
+![](/static/img/regform.png)
