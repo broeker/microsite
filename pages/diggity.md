@@ -8,4 +8,8 @@ eleventyNavigation:
 ---
 This becomes the bomb.
 
-![](/static/img/regform.png)
+![Fookl](/static/img/regform.png "asdf")
+
+And another bites the dust. Sometimes the people shall overcome. 
+
+If I mixspell this word.
