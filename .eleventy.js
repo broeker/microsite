@@ -6,6 +6,18 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addShortcode("version", function () {
+    return String(Date.now());
+  });
+
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/alpinejs/dist/alpine.js": "./js/alpine.js",
+  });
+
+  eleventyConfig.addWatchTarget("./_tmp/style.css");
+
+  eleventyConfig.addPassthroughCopy({ "./_tmp/style.css": "./style.css" });
+
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -84,10 +96,14 @@ module.exports = function(eleventyConfig) {
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
+  let markdownItEmoji = require("markdown-it-emoji");
+  let markdownItFootnote = require("markdown-it-footnote");
+  let markdownItContainer = require("markdown-it-container");
   let options = {
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
+    typographer: true
   };
   let opts = {
     permalink: false
@@ -95,7 +111,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
+    .use(markdownItEmoji)
+    .use(markdownItFootnote)
+    .use(markdownItContainer, 'callout')
   );
+
+
+
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],

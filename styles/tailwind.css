@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .change {
+    color: red;
+  }
+}
+
+@layer base {
+  /* h1 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply text-sm;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  h5 {
+    @apply text-base;
+  }
+  h6 {
+    @apply text-sm;
+  } 
+ 
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
+
+  ol {
+    @apply ml-6
+  } */
+
+  blockquote {
+    @apply rounded p-4 bg-gray-100;
+
+  }
+
+  .callout {
+    @apply p-4 rounded bg-gray-400;
+  }
+
+  img {
+    @apply: max-w-sm;
+  }
+
+    header a {
+    color: black;
+  }
+
+  /* a {
+    color: blue;
+  }
+  a:hover {
+    text-decoration: underline;
+  } */
+
+  nav a {
+    color: black
+  }
+  nav a:hover {
+    text-decoration: none;
+  }
+
+
+
+}

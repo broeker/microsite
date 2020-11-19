@@ -1,5 +1,7 @@
 {
-  "title": "Microsite",
-  "description": "A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.",
+  "title": "Cosmos",
+  "subtitle": "Fast and simple microsites to help bring order out of chaos.",
+  "emoji": "💥",
+  "description": "A template for building a simple documentation website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.",
   "url": "https://eleventy-netlify-boilerplate.netlify.app"
 }

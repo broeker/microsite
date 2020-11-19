@@ -1,0 +1,21 @@
+<div class="top-0 bg-scroll left-0 m-0 fixed w-full z-10 mx-auto" x-data="{ atTop: true}" x-on:scroll.window="atTop = (window.pageYOffset > 0) ? false : true"> 
+    <div class="mx-auto max-w-screen-lg ml-6 mr-6">  
+      <h1 class="text-gray-800 h-36 font-bold text-3xl pl-4 mt-4 "
+        {# x-bind:class="{'transition duration-1000 ease-in transform  scale-0' : !atTop}" #}
+         x-bind:class="{'transition  hidden' : !atTop}"
+        >
+        <span class="text-md" x-data="{message:'{{ metadata.emoji }}'}" x-text="message"></span>
+        {{ metadata.title }}
+        </h1>
+        <h6 class="text-gray-700  text-md pl-4 pb-4"
+          x-bind:class="{'transition  hidden' : !atTop}"
+        >{{ metadata.subtitle }}</h6> 
+        {% include "components/nav.njk" %}
+      </div>
+ </div>
+
+
+      
+
+
+       
