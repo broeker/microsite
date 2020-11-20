@@ -1,7 +1,8 @@
 {
-  "title": "Cosmos",
+  "title": "Cosmo",
   "subtitle": "Fast and simple microsites to help bring order out of chaos.",
   "emoji": "💥",
-  "description": "A template for building a simple documentation website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.",
+  "footer": "Made with ❤️️ by Electric Citizen️",
+  "description": "",
   "url": "https://eleventy-netlify-boilerplate.netlify.app"
 }

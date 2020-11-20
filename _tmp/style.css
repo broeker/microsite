@@ -695,7 +695,7 @@ nav a:hover {
 }
 
 .prose a {
-  color: #ff9900;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -22782,7 +22782,7 @@ nav a:hover {
   }
 
   .sm\:prose a {
-    color: #ff9900;
+    color: blue;
     text-decoration: underline;
   }
 
@@ -44800,7 +44800,7 @@ nav a:hover {
   }
 
   .md\:prose a {
-    color: #ff9900;
+    color: blue;
     text-decoration: underline;
   }
 
@@ -66818,7 +66818,7 @@ nav a:hover {
   }
 
   .lg\:prose a {
-    color: #ff9900;
+    color: blue;
     text-decoration: underline;
   }
 
@@ -88836,7 +88836,7 @@ nav a:hover {
   }
 
   .xl\:prose a {
-    color: #ff9900;
+    color: blue;
     text-decoration: underline;
   }
 

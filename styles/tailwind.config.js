@@ -22,7 +22,7 @@ module.exports = {
             'margin-bottom': 0,
           },
           a: {
-            color: '#ff9900',
+            color: 'blue',
             '&:hover': {
               color: '#2c5282',
             },
