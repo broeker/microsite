@@ -6,9 +6,9 @@
         <a href="/"><span class="text-md" x-data="{message:'{{ metadata.emoji }}'}" x-text="message"></span></a>
          <a href="/">{{ metadata.title }}</a>
         </h1>
-        <h6 class="text-gray-700  text-md pl-4 pb-4"
+        <div class="text-gray-700  text-md pl-4 pb-4"
           x-bind:class="{'transition  hidden' : !atTop}"
-        >{{ metadata.subtitle }}</h6> 
+        >{{ metadata.subtitle }}</div> 
         {% include "components/nav.njk" %}
       </div>
  </div>
