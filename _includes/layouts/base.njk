@@ -3,10 +3,25 @@
   {% include "components/head.njk" %}
   
   <body class="min-h-screen bg-gradient-to-b from-white via-gray-200 to-white">
-    
+
+<article class="prose lg:prose-2xl">
+  <h1>Garlic bread with cheese: What the science tells us</h1>
+  <p>
+    For years parents have espoused the health benefits of eating garlic bread with cheese to their
+    children, with the food earning such an iconic status in our culture that kids will often dress
+    up as warm, cheesy loaf for Halloween.
+  </p>
+  <p>
+    But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
+    springing up around the country.
+  </p>
+  <!-- ... -->
+</article>
+
+
     <div class="container mb-12 mx-auto max-w-screen-lg">
     {% include "components/header.njk" %}
-      <main class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mt-40 ml-6 mr-6">
+      <main class="prose mt-40 ml-6 mr-6">
          {{ layoutContent | safe }}
       </main>
       {% include "components/footer.njk" %}

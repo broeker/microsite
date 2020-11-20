@@ -6,15 +6,12 @@ module.exports = {
   purge: {
     content: ["_site/**/*.html"],
     options: {
-      whitelist: [],
+      safelist: [],
     },
   },
   theme: {
     extend: {
-      
-    },
-    typography: {
-      default: {
+      DEFAULT: {
         css: {
           color: '#2D3748',
           'max-width': '100%',
@@ -29,7 +26,10 @@ module.exports = {
           },
           // ...
         },
-      },
+      }, 
+    },
+    typography: {
+      
     },
     
   },
