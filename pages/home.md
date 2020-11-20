@@ -18,4 +18,4 @@ Or click the button below to deploy your own copy of this project to Netlify.
 
 ## Fook
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg | =100x100)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
