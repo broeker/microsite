@@ -3,8 +3,9 @@
   {% include "components/head.njk" %}
   
   <body class="min-h-screen bg-gradient-to-b from-white via-gray-200 to-white">
-   {% include "components/header.njk" %} 
+    
     <div class="container mb-12 mx-auto max-w-screen-lg">
+    {% include "components/header.njk" %}
       <main class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mt-40 ml-6 mr-6">
          {{ layoutContent | safe }}
       </main>
